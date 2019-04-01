@@ -1,0 +1,23 @@
+body{
+    font: 100% Helvetica, sans-serif;
+}
+
+.contianer{
+    width: 100%;
+}
+
+.no-results{
+    text-align: center;
+}
+
+.vertical-align{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media only screen and (min-width: 40em){
+    .no-results{
+        height: 500px;
+    }
+}
